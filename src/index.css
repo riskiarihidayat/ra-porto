@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  /* Section Style */
+  .section-padding {
+    @apply px-8 sm:px-16 md:px-[65px] lg:px-[150px] 2xl:px-[450px];
+  }
+
+  .section-top {
+    @apply pt-28 md:pt-[220px];
+  }
+
+  /* Text Style */
+  .text-h1 {
+    @apply font-syne font-bold text-5xl md:text-7xl;
+  }
+
+  .text-h2 {
+    @apply font-syne font-bold text-4xl md:text-[64px];
+  }
+
+  .text-h3 {
+    @apply font-syne font-bold text-3xl md:text-[56px];
+  }
+
+  .text-h4 {
+    @apply font-rubik font-semibold text-lg md:text-2xl;
+  }
+
+  .text-large {
+    @apply font-rubik font-normal text-base md:text-lg;
+  }
+
+  .text-medium {
+    @apply font-rubik font-normal text-sm md:text-base;
+  }
+
+  /* Custom Style */
+  .nav-links {
+    @apply font-rubik font-medium uppercase text-sm text-white duration-700 hover:text-primary;
+  }
+
+  .nav-icon {
+    @apply text-4xl text-primary;
+  }
+
+  .nav-contact {
+    @apply font-rubik font-bold text-sm text-white py-3 px-8 md:py-[15px] md:px-[35px] rounded-full border-white border-2 bg-[#030304];
+  }
+}
