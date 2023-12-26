@@ -55,4 +55,12 @@
   .nav-contact {
     @apply font-rubik font-bold text-sm text-white py-3 px-8 md:py-[15px] md:px-[35px] rounded-full border-white border-2 bg-[#030304];
   }
+
+  .text-item-title {
+    @apply font-rubik font-normal text-sm text-[#606060] leading-[22px] tracking-[0.25px];
+  }
+
+  .text-item-des {
+    @apply font-rubik font-normal text-sm text-white leading-[22px] tracking-[0.25px];
+  }
 }
