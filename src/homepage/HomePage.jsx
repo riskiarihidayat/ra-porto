@@ -3,14 +3,16 @@ import Hero from './Hero'
 import About from './About'
 import Projects from './Projects'
 import Testimonial from './Testimonial'
+import Footer from './../components/Footer'
 
 const HomePage = () => {
   return (
-    <div className='section-padding section-top text-white'>
+    <div className=' section-top text-white'>
       <Hero />
       <About />
       <Projects />
       <Testimonial />
+      <Footer />
     </div>
   )
 }

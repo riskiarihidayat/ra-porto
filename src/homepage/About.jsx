@@ -5,7 +5,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const About = () => {
   return (
-    <section className='md:flex md:items-center md:gap-[78px] mb-[150px] md:mb-[290px]'>
+    <section className='section-padding md:flex md:items-center md:gap-[78px] mb-[150px] md:mb-[290px]'>
       <div className='text-center md:text-start'>
         <h3 className='mb-[26px] text-h3 md:leading-[67px]'>Let’s get know about me closer</h3>
         <LazyLoadImage src={myphotos} alt="Riski Ari" className='w-[300px] h-[250px] object-cover mb-[26px] md:hidden rounded-2xl' effect='blur' />
