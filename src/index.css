@@ -57,7 +57,7 @@
   }
 
   .text-item-title {
-    @apply font-rubik font-normal text-sm text-[#606060] leading-[22px] tracking-[0.25px];
+    @apply font-rubik font-normal text-sm text-[#606060] leading-[22px] tracking-[0.25px] w-[56px];
   }
 
   .text-item-des {
