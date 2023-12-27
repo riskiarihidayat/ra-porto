@@ -7,13 +7,13 @@ import Footer from './../components/Footer'
 
 const HomePage = () => {
   return (
-    <div className=' section-top text-white'>
+    <main className=' section-top text-white'>
       <Hero />
       <About />
       <Projects />
       <Testimonial />
       <Footer />
-    </div>
+    </main>
   )
 }
 

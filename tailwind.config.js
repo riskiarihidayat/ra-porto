@@ -10,6 +10,7 @@ export default {
       fontFamily: {
         'rubik': `'Rubik', sans-serif`,
         'syne': `'Syne', sans-serif`,
+        'open': `'Open Sans', sans-serif`,
       },
       colors: {
         'gray': {
@@ -28,6 +29,7 @@ export default {
         'secondary-1': '#1A1A1A',
         'secondary-2': '#262A2C',
         'secondary-3': '#696969',
+        'light-gray': '#949494',
       },
     },
   },
