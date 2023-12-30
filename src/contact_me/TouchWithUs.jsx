@@ -3,9 +3,9 @@ import ContactInput from '../components/ContactInput'
 
 const TouchWithUs = () => {
   return (
-    <section className='section-padding mt-[153px] mb-[115px]'>
+    <section className='section-padding mt-[153px] mb-[126px] md:flex md:justify-between md:items-start'>
       <div className='mb-11'>
-        <h2 className='text-h2 text-white'>Get in Touch With Us</h2>
+        <h2 className='text-h2 text-white leading-[77px]'>Get in Touch With Us</h2>
       </div>
       <div className=''>
         <ContactInput

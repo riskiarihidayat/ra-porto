@@ -9,7 +9,7 @@ const Address = () => {
       <div className='mb-[100px]'>
         <img src={laptop} alt="Laptop in dark" />
       </div>
-      <div className='md:px-[139px] flex flex-col justify-center md:justify-between items-center md:items-center gap-5 md:gap-0'>
+      <div className='md:px-[139px] flex flex-col md:flex-row justify-center md:justify-between items-center gap-5 md:gap-0'>
         <ContactAddress
           description='Kediri, Indonesia'
         />
