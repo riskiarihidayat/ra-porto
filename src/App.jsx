@@ -1,12 +1,12 @@
 import React from 'react'
 
-import { Navbar } from './components'
+import Navbar from './components/Navbar'
 import { Route, Routes } from 'react-router-dom'
 
-import HomePage from './homepage/HomePage'
-import AboutMe from './about_me/AboutMe'
-import ContactMe from './contact_me/ContactMe'
-import MyWorks from './my_works/MyWorks'
+import HomePage from './pages/HomePage'
+import AboutMe from './pages/AboutMe'
+import ContactMe from './pages/ContactMe'
+import MyWorks from './pages/MyWorks'
 
 
 

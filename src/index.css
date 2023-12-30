@@ -67,4 +67,8 @@
   .footer-address {
     @apply font-syne font-bold text-2xl text-white leading-[29px];
   }
+
+  .social-media-links {
+    @apply font-open font-bold text-xl md:text-[32px] uppercase text-light-gray tracking-[4px];
+  }
 }

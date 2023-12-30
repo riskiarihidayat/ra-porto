@@ -1,9 +1,9 @@
 import React from 'react'
-import Hero from './Hero'
-import About from './About'
-import Projects from './Projects'
-import Testimonial from './Testimonial'
-import Footer from './../components/Footer'
+import Hero from '../homepage/Hero'
+import About from '../homepage/About'
+import Projects from '../homepage/Projects'
+import Testimonial from '../homepage/Testimonial'
+import Footer from '../components/Footer'
 
 const HomePage = () => {
   return (
