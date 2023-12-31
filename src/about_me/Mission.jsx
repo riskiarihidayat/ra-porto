@@ -11,7 +11,7 @@ const Mission = () => {
         <h1 className='md:flex-[2] text-h1 text-white mb-[35px]'>My mission is to make beautiful app</h1>
         <p className='md:flex-1 font-open font-semibold text-base md:text-[21px] text-light-gray md:leading-[39px] -tracking-[0.6px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, eligendi. Itaque dignissimos expedita vero necessitatibus, cupiditate pariatur laboriosam molestiae sint perferendis architecto quidem quod possimus.</p>
       </div>
-      <div className='text-center relative md:flex md:items-center'>
+      <div className='text-center relative md:flex md:items-center md:gap-3'>
         <div className='mb-2 md:mb-0 relative md:flex-1'>
           <div className='absolute -left-2 top-5 w-[55px] h-[177px] rounded-full border-[1px] border-primary z-10'></div>
           <LazyLoadImage src={chae1} alt='Twice Chaeyoung' className='h-[320px] md:w-[361px] md:h-[515px] object-cover rounded-2xl' effect='blur' />
